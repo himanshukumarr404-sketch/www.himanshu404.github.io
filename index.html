@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Himanshu Chauhan</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      min-height:100vh;display:flex;align-items:center;justify-content:center;
+      font-family:Arial,Helvetica,sans-serif;color:#fff;
+      background:radial-gradient(circle at top,#24304d 0,#0d1020 45%,#05060b 100%);
+      overflow:hidden;
+    }
+    .card{
+      width:min(92%,430px);padding:45px 28px;text-align:center;border-radius:28px;
+      background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);
+      backdrop-filter:blur(16px);box-shadow:0 25px 70px rgba(0,0,0,.45);
+      animation:up .8s ease;
+    }
+    .avatar{
+      width:105px;height:105px;margin:0 auto 22px;border-radius:50%;
+      display:grid;place-items:center;font-size:38px;font-weight:800;
+      background:linear-gradient(135deg,#6c63ff,#00d4ff);
+      box-shadow:0 0 35px rgba(0,212,255,.25);
+    }
+    h1{font-size:34px;margin-bottom:10px;letter-spacing:.3px}
+    .tag{color:#c9cee0;font-size:15px;margin-bottom:28px}
+    .buttons{display:grid;gap:14px}
+    a{
+      display:block;padding:15px;border-radius:14px;text-decoration:none;font-weight:700;
+      transition:.25s transform,.25s box-shadow;
+    }
+    a:hover{transform:translateY(-3px);box-shadow:0 10px 25px rgba(0,0,0,.25)}
+    .call{background:#fff;color:#111}
+    .insta{color:#fff;background:linear-gradient(90deg,#833ab4,#fd1d1d,#fcb045)}
+    footer{margin-top:30px;color:#aeb4c8;font-size:14px}
+    @keyframes up{from{opacity:0;transform:translateY(25px)}to{opacity:1;transform:translateY(0)}}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="avatar">HC</div>
+    <h1>Himanshu Chauhan</h1>
+    <p class="tag">Welcome to my personal page ✨</p>
+
+    <div class="buttons">
+      <a class="call" href="tel:6399306681">📞 Call Me</a>
+      <a class="insta" href="https://www.instagram.com/rdx.__.thakur/" target="_blank" rel="noopener">
+        📸 Instagram · @rdx.__.thakur
+      </a>
+    </div>
+
+    <footer>Thank you for visiting ❤️</footer>
+  </main>
+</body>
+</html>
